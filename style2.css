@@ -1,0 +1,73 @@
+/* style2.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+header {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text within the container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Make the container take the full height of the viewport */
+}
+
+/* Align the AQI indicator to the center */
+#aqiIndicator {
+    width: 50px; /* Set the width as needed */
+    height: 50px; /* Set the height as needed */
+    border-radius: 50%; /* Make it a circle */
+    margin: 10px auto !important; /* Center the indicator horizontally with auto margin */
+}
+
+/* Additional styling for color-coded indicators */
+#aqiIndicator.green {
+    background-color: #00e400;
+}
+
+#aqiIndicator.yellow {
+    background-color: #ffff00;
+}
+
+#aqiIndicator.red {
+    background-color: #ff0000;
+}
+
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
+

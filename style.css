@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* Reset default styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce6cf; /* A warm and colorful background */
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text within the container */
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #333333;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Label styles for form elements */
+label {
+    margin-bottom: 8px;
+    color: #555555;
+}
+
+/* Input and textarea styles for form elements */
+input, textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Add your additional styling as needed */
+
+/* Add this style for the AQI indicator */
+
+#aqiIndicator {
+    width: 50px; /* Set the width as needed */
+    height: 50px; /* Set the height as needed */
+    border-radius: 50%; /* Make it a circle */
+    margin-top: 10px auto; /* Adjust the margin as needed */
+    align-items: center;
+}
+
+/* Additional styling for color-coded indicators */
+#aqiIndicator.green {
+    background-color: #00e400;
+}
+
+#aqiIndicator.yellow {
+    background-color: #ffff00;
+}
+
+#aqiIndicator.red {
+    background-color: #ff0000;
+}
